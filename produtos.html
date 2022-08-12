@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Petshop</title>
+    <link rel="stylesheet" href="estiloP.css" class="css">
+    <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;500&family=Poppins:wght@300;400;700&display=swap"
+    rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <header>
+        <img class="logo" src="https://pbs.twimg.com/media/FYyXhQ6XwAAzY-G?format=png&name=240x240" width="100px" alt="logo">
+        <nav>
+            <ul class="nav_links">
+                <li><a href="index.html">Produtos</a></li>
+                <li><a href="#">Animais</a></li>
+                <li><a href="nos.html">Sobre nós</a></li>
+            </ul>
+        </nav>
+        <a class="cta" href="#"><button>Contate-nos</button></a>
+    </header>
+    <hr>
+    <div class="small-container single-product">
+        <div class="row">
+            <div class="col-2">
+                <img src="https://pbs.twimg.com/media/FYyZPIiWIAAZm4_?format=jpg&name=small" width="100%" id=ProdutoImagem>
+                <div class="small-img-row">
+                    <div class="small-img-col">
+                        <img src="https://pbs.twimg.com/media/FYy-yMhWAAMagQz?format=jpg&name=small" width="100%" class="small-img">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="https://pbs.twimg.com/media/FYy98ByWQAA06gX?format=jpg&name=small" width="100%" class="small-img">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="https://pbs.twimg.com/media/FYy-EfpXwAEQUqo?format=jpg&name=small" width="100%" class="small-img">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="https://pbs.twimg.com/media/FYy-RhaXoAAirD3?format=jpg&name=small" width="100%" class="small-img">
+                    </div>
+                </div>
+                <div class="col-2"></div>
+                <h1>Casinhas para cachorro</h1><br><br>
+                <h1>Feitas para o seu cachorro ;)</h1><br><br>
+                <h4>R$ 132,91</h4><br><br>
+                <select>
+                    <option>Qual você deseja?</option>
+                    <option>Azul</option>
+                    <option>Rosa</option>
+                    <option>Vermelha</option>
+                    <option>Amarela</option>
+                </select>
+                <input type="number" value="1">
+                <a href="carrinho.html" class="btn">Adicionar ao carrinho</a><br><br>
+                <h3>Detalhes do produto<i class="fa fa-indent"></i></h3>
+                <br>
+                <p>01-PRINCIPAIS CARACTERÍSTICAS
+                    <br><br>
+                    - Pratica pra montar e desmontar;<br><br>
+                    - Fácil de lavar;<br><br>
+                    - Diversas cores para você escolher;<br><br>
+                    - Pode ser utilizada como cama.<br><br>
+
+                    02-DESCRIÇÃO DO PRODUTO<br><br>
+
+                    A Casa Christino de Plástico é ultra resistente, possui sistema de engate rápido, ventilação de ar,
+                    cores vivas e ainda dispensa o uso de parafusos para montar. São desmontáveis praticas e higiênicas,
+                    no verão é possível desmontá-la e usar como caminha.<br>
+
+                    03 - MEDIDAS<br><br>
+
+                    - Tamanho 4<br><br>
+
+
+
+                    MEDIDAS EXTERNAS:<br><br>
+                    Altura 57 cm<br><br>
+                    Largura 57 cm<br><br>
+                    Comprimento 70 cm<br><br>
+
+                    MEDIDAS INTERNAS: <br><br>
+
+                    Altura: 55 cm<br><br>
+
+                    Largura 47 cm<br><br>
+                    Comprimento 55 cm<br><br>
+
+
+
+                    Especificações:<br><br>
+                    Fácil Montagem<br><br>
+                    Produzida Em Plástico Atóxico<br><br>
+
+                    Casinha Enviada Desmontada Para Ajudar No Transporte.<br>
+                    Protege Da Chuva.<br><br>
+                    Pode Ser Lavada.<br><br>
+
+                    BRINDE<br><br>
+
+
+
+                    02 Comedouro 350 ml (Brinde)<br>
+
+                    01 Escova Rastelo (Brinde)<br>
+
+                    01Concha para ração (Brinde)<br>
+
+
+
+
+                    Indicada para Cães de médio porte
+                </p>
+
+            </div>
+        </div>
+    </div>
+    <script>
+        var ProdutoImagem = document.getElementById("ProdutoImagem");
+        var SmallImg = document.getElementByClassName("Small-img");
+        SmallImg[0].onclick=function()
+        {
+            ProdutoImagem.src=SmallImg[0].src;
+        }
+        SmallImg[1].onclick=function()
+        {
+            ProdutoImagem.src=SmallImg[1].src;
+        }
+        SmallImg[2].onclick=function()
+        {
+            ProdutoImagem.src=SmallImg[2].src;
+        }
+        SmallImg[3].onclick=function()
+        {
+            ProdutoImagem.src=SmallImg[3].src;
+        }
+        
+    </script>
+</body>
+</html>

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>Petshop</title>
+    <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Petshop</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;500&family=Poppins:wght@300;400;700&display=swap"
+    rel="stylesheet">
+  <meta name="description" content="">
+  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="compras.css">
+
+    </head>
+    <body>
+        <header>
+            <img class="logo" src="https://pbs.twimg.com/media/FYyXhQ6XwAAzY-G?format=png&name=240x240" width="100px" alt="logo">
+            
+            </div>
+          </header>
+        
+          <div>
+            <h1 id="titulo">Finalize sua compra!</h1>
+            <p id="subtitulo">Complete suas informações</p>
+            <br>
+        </div>
+
+        <!-- Início do formulário -->
+        <form>
+
+            <fieldset class="grupo">
+                <!-- Campo do nome com legenda "nome" e css de classe "campo" -->
+                <div class="campo">
+                    <label for="nome"><strong>Nome</strong></label>
+                    <input type="text" name="nome" id="nome" required>
+                </div>
+
+                <!-- Campo do sobrenome com legenda "sobrenome" e css de classe "campo" -->
+                <div class="campo">
+                    <label for="sobrenome"><strong>Sobrenome</strong></label>
+                    <input type="text" name="sobrenome" id="sobrenome" required>
+                </div>
+            </fieldset> 
+
+            <!-- Campo de email com-->
+            <div class="campo">
+                <label for="email"><strong>Email</strong></label>
+                <input type="email" name="email" id="email" required>
+            </div>
+
+            <div class="campo">
+              <label for="cpf"><strong>CPF</strong></label>
+              <input type="number" name="cpf" id="cpf" required>
+          </div>
+
+          <div class="campo">
+            <label for="cart"><strong>Cartão de credito</strong></label>
+            <input type="number" name="cart" id="cart" required>
+        </div>
+
+            <!-- Campo de desenvolvimento web com 3 opções de botões selecionáveis (radio button) e css de classe "campo" -->
+            <div class="campo">
+                <label><strong>O que você achou de sua experiencia aqui no site?</strong></label>
+                <label>
+                    <input type="radio" name="devweb" value="frontend" checked>Muito boa
+                </label>
+                <label>
+                    <input type="radio" name="devweb" value="backend">Boa
+                </label>
+                <label>
+                    <input type="radio" name="devweb" value="fullstack">Regular
+                </label>
+                <label>
+                  <input type="radio" name="devweb" value="fullstack">Ruim
+              </label>
+            </div>
+
+
+            <button class="botao" type="submit" onsubmit=""><a href="final.html"></a>Comprar</button>            
+
+        </form>
+
+    </body>
+</html>

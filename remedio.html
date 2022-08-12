@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Petshop</title>
+    <link rel="stylesheet" href="estiloP.css" class="css">
+    <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;500&family=Poppins:wght@300;400;700&display=swap"
+    rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <header>
+        <img class="logo" src="https://pbs.twimg.com/media/FYyXhQ6XwAAzY-G?format=png&name=240x240" width="100px" alt="logo">
+        <nav>
+            <ul class="nav_links">
+                <li><a href="index.html">Produtos</a></li>
+                <li><a href="#">Animais</a></li>
+                <li><a href="nos.html">Sobre nós</a></li>
+            </ul>
+        </nav>
+        <a class="cta" href="#"><button>Contate-nos</button></a>
+    </header>
+    <hr>
+    <div class="small-container single-product">
+        <div class="row">
+            <div class="col-2">
+                <img src="https://static3.tcdn.com.br/img/img_prod/496822/dexium_c_20_comprimidos_11755_1_20190616144547.jpg" width="100%" id=ProdutoImagem>
+                <div class="small-img-row">
+                    
+                </div>
+                <div class="col-2"></div>
+                <h1>ANTI-INFLAMATÓRIO DÉXIUM COMPRIMIDOS CHEMITEC</h1><br><br>
+                <h1>Feitas para o bem do seu pet ;)</h1><br><br>
+                <h4>R$ 21,90</h4><br><br>
+                <select>
+                    <option>Qual você deseja?</option>
+                    <option>Comprimido</option>
+                    <option>Gotas</option>
+                </select>
+                
+                <input type="number" value="1">
+                <a href="carrinho.html" class="btn">Adicionar ao carrinho</a><br><br>
+                <h3>Detalhes do produto<i class="fa fa-indent"></i></h3>
+                <br>
+                <p>01-PRINCIPAIS CARACTERÍSTICAS
+                    <br><br>
+                    - Indicado para cães e gatos devido a sua atividade anti-inflamatória, anti-reumática e antialérgica<br><br>
+                    
+
+                    02-MODO DE usar<br><br>
+
+                    Déxium Comprimidos possui na sua formulação 0,50mg de acetato de dexametasona, equivalente a 0,454mg de dexametasona base, que é um análogo sintético a prednisolona, porém com atividade antiinflamatória mais potente e efeitos metabólicos e hormonais melhorados.<br>
+
+                    03 - POSOLOGIA<br><br>
+
+                    A dose de Déxium Comprimidos, como acontece com outras preparações à base de potentes corticosteróides, deve ser determinada de acordo com a severidade da afecção, tolerância e porte do animal e conforme orientação do médico veterinário.
+
+                    Cães: Meio a 3 comprimidos por dia, numa só dose ou administrada em 2 vezes.
+                    Gatos: Meio a um comprimido diariamente, numa só dose ou em 2 vezes.
+
+                    Apresentação:
+                    Cartucho com 2 blisters com 10 comprimidos contendo 0,454mg de dexametasona.<br><br>
+
+
+
+                   
+
+
+                    3-COMPOSIÇÃO:<br><br>
+                    - Fórmula:
+                    Cada comprimido de 185mg contém:
+                    Dexametasona (acetato)............................................0,454mg
+                    Excipiente q.s.p. .........................................................185mg
+                    <br><br>
+                </p>
+
+            </div>
+        </div>
+    </div>
+    <script>
+        var ProdutoImagem = document.getElementById("ProdutoImagem");
+        var SmallImg = document.getElementByClassName("Small-img");
+        SmallImg[0].onclick=function()
+        {
+            ProdutoImagem.src=SmallImg[0].src;
+        }
+        SmallImg[1].onclick=function()
+        {
+            ProdutoImagem.src=SmallImg[1].src;
+        }
+        SmallImg[2].onclick=function()
+        {
+            ProdutoImagem.src=SmallImg[2].src;
+        }
+        SmallImg[3].onclick=function()
+        {
+            ProdutoImagem.src=SmallImg[3].src;
+        }
+        
+    </script>
+</body>
+</html>

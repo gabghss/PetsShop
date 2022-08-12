@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Petshop</title>
+    <link rel="stylesheet" href="estiloP.css" class="css">
+    <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;500&family=Poppins:wght@300;400;700&display=swap"
+    rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <header>
+        <img class="logo" src="https://pbs.twimg.com/media/FYyXhQ6XwAAzY-G?format=png&name=240x240" width="100px" alt="logo">
+        <nav>
+            <ul class="nav_links">
+                <li><a href="index.html">Produtos</a></li>
+                <li><a href="#">Animais</a></li>
+                <li><a href="nos.html">Sobre nós</a></li>
+            </ul>
+        </nav>
+        <a class="cta" href="#"><button>Contate-nos</button></a>
+    </header>
+    <hr>
+    <div class="small-container single-product">
+        <div class="row">
+            <div class="col-2">
+                <img src="https://pbs.twimg.com/media/FYyixEQXkAApNs4?format=jpg&name=small" width="100%" id=ProdutoImagem>
+                <div class="small-img-row">
+                    <div class="small-img-col">
+                        <img src="https://static3.tcdn.com.br/img/img_prod/496822/guia_deg_para_caes_triangulo_colorido_26495_1_20200715192016.jpg" width="100%" class="small-img">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="https://cf.shopee.com.br/file/89f89ffff2324f84096b57ec183911cb_tn" width="100%" class="small-img">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="https://static3.tcdn.com.br/img/img_prod/496822/coleira_deg_para_caes_listrada_colorida_26431_1_20200715132545.jpg" width="100%" class="small-img">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEtYRT4scbBWwZ86YXdXtZfYp_fIITnNPmuCfdOgRotobOLiT9zMxkLg6ltocR3W91xik&usqp=CAU" width="100%" class="small-img">
+                    </div>
+                </div>
+                <div class="col-2"></div>
+                <h1>Coleiras Para Cães e Gatos</h1><br><br>
+                <h1>Feitas para o seu pet ;)</h1><br><br>
+                <h4>R$ 19,60</h4><br><br>
+                <select>
+                    <option>Qual você deseja?</option>
+                    <option>Azul</option>
+                    <option>Azul Ciano com Cores</option>
+                    <option>Espectro de Cores/option>
+                    <option>Rosa</option>
+                </select>
+                <input type="number" value="1">
+                <a href="carrinho.html" class="btn">Adicionar ao carrinho</a><br><br>
+                <h3>Detalhes do produto<i class="fa fa-indent"></i></h3>
+                <br>
+                <p>01-PRINCIPAIS CARACTERÍSTICAS
+                    <br><br>
+                    - Indicado para cães<br><br>
+                    - Seu pet mais seguro durantes os passeios<br><br>
+                    - Design super estiloso<br><br>
+                    - Super Confortável<br><br>
+
+                    02-DESCRIÇÃO DO PRODUTO<br><br>
+
+                    Para o passeio ideal junto com seu cachorro saia com a guia da D&G e tenha certeza que seu animal estra seguro <br>
+
+                    03 - MEDIDAS<br><br>
+
+                    - Tamanho ajustável<br><br>
+
+
+
+                    MEDIDAS EXTERNAS:<br><br>
+                    Altura 13 cm<br><br>
+                    Largura 10 cm<br><br>
+                    Comprimento da Alça 5m<br><br>
+
+                   
+
+
+                    3-DICAS PRA UTLIZAÇÃO DO PRODUTO:<br><br>
+                    - Não insista em puxá-lo ou arrastá-lo, pois se seu cachorro estiver mal preso poderá escapar.<br><br>
+                    - Não suspenda seu cachorro no ar puxando pelo acessório.<br><br>
+
+                    - Não deixe seu cachorro usar qualquer produto sem supervisão.<br>
+                    - Sempre confira se os acessórios estão em perfeitas condições antes de sair para passear.
+
+                    <br><br>
+                </p>
+
+            </div>
+        </div>
+    </div>
+    <script>
+        var ProdutoImagem = document.getElementById("ProdutoImagem");
+        var SmallImg = document.getElementByClassName("Small-img");
+        SmallImg[0].onclick=function()
+        {
+            ProdutoImagem.src=SmallImg[0].src;
+        }
+        SmallImg[1].onclick=function()
+        {
+            ProdutoImagem.src=SmallImg[1].src;
+        }
+        SmallImg[2].onclick=function()
+        {
+            ProdutoImagem.src=SmallImg[2].src;
+        }
+        SmallImg[3].onclick=function()
+        {
+            ProdutoImagem.src=SmallImg[3].src;
+        }
+        
+    </script>
+</body>
+</html>
